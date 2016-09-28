@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d9d9d9;
+}
+h1 {
+  font-size: 2.5em;
+}
+hr {
+  background-color: red;
+}
+
+.navbar {
+  display: block;
+  margin: 10px 0;
+  padding: 5px 0;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.navbar a {
+  background-color: gray;
+  border: 1px solid black;
+  margin: 5px 10px 5px 0;
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  
+}
+.navbar a:hover {
+  color: red;
+}
+
+.page {
+	width: 70%;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.content {
+  padding: 10px;
+}
+.content ul {
+  list-style-position: inside;
+}
+
+.about_me {
+  padding: 10px;
+}
+.about_me p {
+  margin: 5px;
+}
