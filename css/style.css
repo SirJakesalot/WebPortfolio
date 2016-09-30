@@ -77,3 +77,13 @@ hr {
 .downloadLinks a img {
   height: 50px;
 }
+
+.project {
+  display: flex;
+}
+.project img {
+  max-width: 400px;
+}
+.project p {
+  margin-left: 10px;
+}
