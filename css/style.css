@@ -9,8 +9,12 @@ body {
 h1 {
   font-size: 2.5em;
 }
+h2 {
+  font-size: 1.3em;
+}
 hr {
-  background-color: red;
+  border-top: 2px solid red;
+  margin-bottom: 5px;
 }
 
 .navbar {
@@ -35,17 +39,20 @@ hr {
 }
 
 .page {
-	width: 70%;
+  width: 840px;
   margin: 20px auto;
   background-color: white;
   border-radius: 5px;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
+
+
 .content {
   padding: 10px;
 }
 .content ul {
   list-style-position: inside;
+  margin: 0 0 5px 20px;
 }
 
 .about_me {
@@ -53,4 +60,20 @@ hr {
 }
 .about_me p {
   margin: 5px;
+}
+
+.separatedInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.downloadLinks {
+  display: flex;
+  justify-content: flex-end;
+}
+.downloadLinks a {
+  margin: 10px 0 5px 5px;
+}
+.downloadLinks a img {
+  height: 50px;
 }
