@@ -12,7 +12,7 @@ h1 {
 h2 {
   font-size: 1.3em;
 }
-hr {
+hr.resumeSeparator {
   border-top: 2px solid red;
   margin-bottom: 5px;
 }
@@ -80,10 +80,18 @@ hr {
 
 .project {
   display: flex;
+  margin: 20px 0;
 }
 .project img {
   max-width: 400px;
 }
-.project p {
+.project .info {
   margin-left: 10px;
+}
+.project .info td {
+  min-width: 95px;
+}
+.project .info .heading {
+  font-weight: bold;
+  vertical-align: top;
 }
