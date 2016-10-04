@@ -89,9 +89,26 @@ hr.resumeSeparator {
   margin-left: 10px;
 }
 .project .info td {
-  min-width: 95px;
+  min-width: 105px;
+}
+.project .info a {
+  text-decoration: none;
+}
+.project .info a:hover {
+  text-decoration: underline;
+}
+.project .info a:visited {
+  color: blue;
 }
 .project .info .heading {
   font-weight: bold;
   vertical-align: top;
+}
+.project .images {
+  display: flex;
+  flex-direction: column;
+  
+}
+.project .images img {
+  margin-bottom: 10px;
 }
