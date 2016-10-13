@@ -55,11 +55,21 @@ hr.resumeSeparator {
   margin: 0 0 5px 20px;
 }
 
-.about_me {
+.aboutMe {
   padding: 10px;
 }
-.about_me p {
+.aboutMe p {
   margin: 5px;
+}
+.aboutMe a {
+  text-decoration: none;
+}
+.aboutMe a:hover {
+  text-decoration: underline;
+  color: red;
+}
+.aboutMe a:visited {
+  color: blue;
 }
 
 .separatedInfo {
